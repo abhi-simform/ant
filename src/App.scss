@@ -1,0 +1,42 @@
+$max-width: 1200px;
+
+.container {
+  border: 2px solid #ef5366;
+  border-radius: 10px;
+  max-width: min(90%, $max-width);
+  margin-inline: auto;
+  margin-block: 2rem;
+  padding: 2rem;
+}
+
+.ant-btn {
+  margin: 1rem;
+  padding-block: 11px;
+  height: auto;
+}
+
+.ant-row {
+  text-align: center;
+  margin-block: 1rem;
+  color: white;
+}
+
+.ant-col {
+  padding: 1rem;
+  &:nth-child(odd) {
+    background-color: #0193dc;
+  }
+  &:nth-child(even) {
+    background-color: #015580;
+  }
+}
+
+.ant-dropdown-button {
+  .ant-btn {
+    margin-inline: 0;
+  }
+}
+
+.ant-alert:not(:last-child) {
+  margin-block: 1rem;
+}
